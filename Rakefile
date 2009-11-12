@@ -4,12 +4,12 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name              = "remixr"
-    gem.summary           = %Q{wrapper for the BestBuy Remix api}
+    gem.name              = "harvestr"
+    gem.summary           = %Q{wrapper for the BestBuy Harvest api}
     gem.email             = "wynn@squeejee.com"
-    gem.homepage          = "http://github.com/squeejee/remixr"
+    gem.homepage          = "http://github.com/squeejee/harvestr"
     gem.authors           = ["Wynn Netherland", "Jim Mulholland"]
-    gem.rubyforge_project = "remixr"
+    gem.rubyforge_project = "harvestr"
     gem.files             = FileList["[A-Z]*", "{examples,lib,test}/**/*"]
     
     gem.add_dependency('mash', '0.0.3')
@@ -18,7 +18,7 @@ begin
     gem.add_development_dependency('thoughtbot-shoulda')
     gem.add_development_dependency('jeremymcanally-matchy')
     gem.add_development_dependency('mocha')
-    gem.add_development_dependency('fakeweb')
+    gem.add_development_dependency('fakeweb', '1.2.5')
     gem.add_development_dependency('mash')
   end
 rescue LoadError
@@ -58,7 +58,7 @@ Rake::RDocTask.new do |rdoc|
   end
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "remixr #{version}"
+  rdoc.title = "harvestr #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
@@ -78,7 +78,7 @@ begin
         )
 
         host = "#{config['username']}@rubyforge.org"
-        remote_dir = "/var/www/gforge-projects/remixr/rdoc"
+        remote_dir = "/var/www/gforge-projects/harvestr/rdoc"
         local_dir = 'rdoc'
 
         Rake::SshDirPublisher.new(host, remote_dir, local_dir).upload
@@ -90,7 +90,7 @@ begin
         )
 
         host = "#{config['username']}@rubyforge.org"
-        remote_dir = "/var/www/gforge-projects/remixr/"
+        remote_dir = "/var/www/gforge-projects/harvestr/"
         local_dir = 'website'
         
         Rake::SshDirPublisher.new(host, remote_dir, local_dir).upload

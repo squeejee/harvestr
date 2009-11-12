@@ -1,16 +1,16 @@
-= remixr
+= harvestr
 
-The ruby BestBuy Remix API gem. 
+A Ruby wrapper for the Harvest and Co-op APIs. 
 
 == examples
   
 See the examples directory.
 
-http://github.com/squeejee/remixr/tree/master/examples
+http://github.com/squeejee/harvestr/tree/master/examples
 
 == docs
 
-http://rdoc.info/projects/squeejee/remixr
+http://rdoc.info/projects/squeejee/harvestr
 
 == Copyright
 
