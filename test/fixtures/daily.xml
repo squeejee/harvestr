@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<daily>
+  <for_day type="date">Sat, 01 Aug 2009</for_day>
+  <day_entries>
+    <day_entry>
+      <id type="integer">14316546</id>
+      <spent_at type="date">2009-08-01</spent_at>
+      <user_id type="integer">86342</user_id>
+      <client>Pengwynn Group</client>
+      <project_id>408960</project_id>
+      <project>Internal</project>
+      <task_id>333865</task_id>
+      <task>Admin</task>
+      <hours type="float">1.34</hours>
+      <notes></notes>
+      <created_at type="datetime">Sat, 01 Aug 2009 02:19:00 +0000</created_at>
+    </day_entry>
+    <day_entry>
+      <id type="integer">14319479</id>
+      <spent_at type="date">2009-08-01</spent_at>
+      <user_id type="integer">86342</user_id>
+      <client>Pengwynn Group</client>
+      <project_id>408960</project_id>
+      <project>Internal</project>
+      <task_id>333866</task_id>
+      <task>Project Management</task>
+      <hours type="float">1.34</hours>
+      <notes></notes>
+      <created_at type="datetime">Sat, 01 Aug 2009 19:09:03 +0000</created_at>
+    </day_entry>
+  </day_entries>
+  <projects>
+    <project>
+      <name>Internal</name>
+      <code></code>
+      <id type="integer">408960</id>
+      <client>Pengwynn Group</client>
+      <tasks>
+        <task>
+          <name>Admin</name>
+          <id type="integer">333865</id>
+          <billable type="boolean">false</billable>
+        </task>
+        <task>
+          <name>Business Development</name>
+          <id type="integer">333867</id>
+          <billable type="boolean">false</billable>
+        </task>
+        <task>
+          <name>Project Management</name>
+          <id type="integer">333866</id>
+          <billable type="boolean">false</billable>
+        </task>
+        <task>
+          <name>Vacation</name>
+          <id type="integer">333868</id>
+          <billable type="boolean">false</billable>
+        </task>
+      </tasks>
+    </project>
+  </projects>
+</daily>

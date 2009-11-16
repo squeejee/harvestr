@@ -1,0 +1,7 @@
+<request>
+  <count>0</count>
+  <timeframe_limit>15</timeframe_limit>
+  <max_calls>40</max_calls>
+  <last_access_at>Sat Aug 01 23:06:55 +0000 2009</last_access_at>
+  <lockout_seconds>300</lockout_seconds>
+</request>

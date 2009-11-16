@@ -5,10 +5,10 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name              = "harvestr"
-    gem.summary           = %Q{wrapper for the BestBuy Harvest api}
-    gem.email             = "wynn@squeejee.com"
+    gem.summary           = %Q{wrapper for the Harvest api}
+    gem.email             = "jim@squeejee.com"
     gem.homepage          = "http://github.com/squeejee/harvestr"
-    gem.authors           = ["Wynn Netherland", "Jim Mulholland"]
+    gem.authors           = ["Wynn Netherland", "Jim Mulholland", "Jason Derrett"]
     gem.rubyforge_project = "harvestr"
     gem.files             = FileList["[A-Z]*", "{examples,lib,test}/**/*"]
     

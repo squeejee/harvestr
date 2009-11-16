@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<add>
+  <day_entry>
+    <id type="integer">14316546</id>
+    <spent_at type="date">2009-08-01</spent_at>
+    <user_id type="integer">86342</user_id>
+    <client>Pengwynn Group</client>
+    <project_id>408960</project_id>
+    <project>Internal</project>
+    <task_id>333865</task_id>
+    <task>Admin</task>
+    <hours type="float">0.00</hours>
+    <notes></notes>
+    <created_at type="datetime">Sat, 01 Aug 2009 02:19:00 +0000</created_at>
+  </day_entry>
+</add>
