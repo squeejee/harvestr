@@ -8,9 +8,9 @@ Gem::Specification.new do |s|
   s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Wynn Netherland", "Jim Mulholland"]
-  s.date = %q{2009-11-11}
-  s.email = %q{wynn@squeejee.com}
+  s.authors = ["Wynn Netherland", "Jim Mulholland", "Jason Derrett"]
+  s.date = %q{2009-11-16}
+  s.email = %q{jim@squeejee.com}
   s.extra_rdoc_files = [
     "README.rdoc"
   ]
@@ -42,7 +42,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{harvestr}
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{wrapper for the BestBuy Harvest api}
+  s.summary = %q{wrapper for the Harvest api}
   s.test_files = [
     "test/harvestr/base_test.rb",
      "test/harvestr/reports_test.rb",
